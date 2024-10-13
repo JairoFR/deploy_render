@@ -57,3 +57,5 @@ group :test do
 end
 
 gem "faker", "~> 2.23"
+
+gem "net-pop", "~> 0.1.2"
