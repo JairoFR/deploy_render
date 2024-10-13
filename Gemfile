@@ -56,6 +56,6 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "faker", "~> 2.23"
+gem "faker", "~> 3.4"
 
 gem "net-pop", "~> 0.1.2"
