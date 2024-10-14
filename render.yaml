@@ -14,8 +14,9 @@ services:
   startCommand: "bundle exec rails server"
   envVars:
     - key: DATABASE_URL
-      name: mysite
-      property: connectionString
+      fromDatabase:
+        name: mysite
+        property: connectionString
     - key: RAILS_MASTER_KEY
       sync:false- key: WEB_CONCURRENCY
       value: 2 
